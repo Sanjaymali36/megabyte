@@ -1,0 +1,121 @@
+.menu {
+	right: 40px;
+	position: absolute;
+	top: 10px;
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: 400
+}
+.menu a, .menu a:hover {
+	color: #fff
+}
+.left_menu_main {
+	position: relative;
+	transition: all .4s ease 0s;
+	z-index: 1000;float: right; width: auto; margin: 20px 0
+}
+#sidebar-wrapper.active {
+	right: 100%;
+	transition: all .4s ease 0s;
+	width: 100%
+}
+
+#drop_menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-align: right;
+	display: flex;
+	justify-content: space-between
+}
+/*#drop_menu ul li a {
+	color: #666;
+	text-align: left
+}*/
+/*#drop_menu ul li a:hover {
+	color: #097ae3
+}*/
+#navbar .right {
+	display: none
+}
+.left_menu_main {
+	transition: all .4s ease 0s;
+	z-index: 1000;
+	margin: 27px 0
+}
+#click_here, #click_here_back, #trigger {
+	background: rgba(0,0,0,0) url(../images/close2.png) no-repeat scroll right 20px center;
+	color: #fefefe;
+	cursor: pointer;
+	width: 269px;
+	display: block;
+	position: relative;
+	height: 70px;
+	display: none
+}
+
+@media only screen and (min-width:1400px) and (max-width:1599px) {
+.left_menu_main{margin: 0}
+}
+
+@media only screen and (min-width:1200px) and (max-width:1399px) {
+.left_menu_main{margin: 0}
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+	#drop_menu ul li a {
+		font-size: 14px
+	}
+	#drop_menu ul {
+		display: block
+	}
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	#drop_menu ul {
+		display: block
+	}
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+#drop_menu ul li a { font-size: 14px }
+#drop_menu ul {display: block}
+.left_menu_main{margin: 0}
+
+#drop_menu ul li ul{display: none !important}
+
+.left_menu_main{position: absolute; right: 0; top: 94px; overflow: auto; height: 100vh; background: #FFF;}
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+#drop_menu ul {	display: block	}
+.left_menu_main{margin: 0}
+
+#drop_menu ul li ul{display: none !important}
+
+.left_menu_main{position: absolute; right: 0; top: 94px; overflow: auto; height: 100vh; background: #FFF;}
+}
+
+@media only screen and (min-width:640px) and (max-width:767px) {
+#drop_menu ul{display: block;}
+.left_menu_main{margin: 0}
+
+#drop_menu ul li ul{display: none !important}
+
+.left_menu_main{position: absolute; right: 0; top: 94px; overflow: auto; height: 100vh; background: #FFF;}
+}
+
+@media only screen and (min-width:480px) and (max-width:639px) {
+#drop_menu ul{display: block;}
+.left_menu_main{margin: 0}
+
+#drop_menu ul li ul{display: none !important}
+
+.left_menu_main{position: absolute; right: 0; top: 94px; overflow: auto; height: 100vh; background: #FFF;}
+}
+
+@media only screen and (min-width:320px) and (max-width:479px) {
+#drop_menu ul{display: block;}
+.left_menu_main{margin: 0}
+
+#drop_menu ul li ul{display: none !important}
+
+.left_menu_main{position: absolute; right: 0; top: 94px; overflow: auto; height: 100vh; background: #FFF;}
+}

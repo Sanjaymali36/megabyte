@@ -1,0 +1,457 @@
+footer{background: none}
+footer .talk {
+	background: url(../images/talk-footer-bg.png) no-repeat center bottom
+}
+footer .talk .row {
+	margin: 0
+}
+footer .talk ul {
+	margin: 0;
+	padding: 0;
+	list-style: none
+}
+footer .talk ul li {
+	width: 20%;
+	float: left;
+	border-right: 1px solid #ccc;
+	text-align: center;
+	padding-bottom: 50px;
+	height: 250px;
+	position: relative; box-sizing: border-box;
+}
+footer .talk ul li em{line-height: 70px;}
+footer .talk ul li:last-child {
+	border-right: none
+}
+footer .talk ul li h4 {
+	position: absolute;
+	margin: 0 auto;
+	color: #fff;
+	font-size: 25px;
+	z-index: 1;
+	width: 100%;
+	top: 42%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	-webkit-transform: translate(-50%,-50%);
+	font-weight: 700
+}
+footer .talk ul li h4 span {
+	display: block;
+	font-size: 19px;
+	margin: 0 0 10px
+}
+footer .talk ul li .icon {
+	width: 70px;
+	height: 70px;
+	line-height: 70px;
+	font-size: 30px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	border-radius: 40px 40px 0 0
+}
+footer .talk ul li.red .icon {
+	background: #de204f;
+	color: #fff
+}
+footer .talk ul li.red h4, footer .talk ul li.red h4 a {
+	color: #de204f
+}
+footer .talk ul li.red:hover {
+	background: #de204f
+}
+footer .talk ul li.red:hover .icon {
+	color: #de204f
+}
+footer .talk ul li.purple .icon {
+	background: #895ee4;
+	color: #fff
+}
+footer .talk ul li.purple h4, footer .talk ul li.purple h4 a {
+	color: #895ee4
+}
+footer .talk ul li.purple:hover {
+	background: #895ee4
+}
+footer .talk ul li.purple:hover .icon {
+	color: #895ee4
+}
+footer .talk ul li.dark-green .icon {
+	background: #00a693;
+	color: #fff
+}
+footer .talk ul li.dark-green h4, footer .talk ul li.dark-green h4 a {
+	color: #00a693
+}
+footer .talk ul li.dark-green:hover {
+	background: #00a693
+}
+footer .talk ul li.dark-green:hover .icon {
+	color: #00a693
+}
+footer .talk ul li.blue .icon {
+	background: #2087de;
+	color: #fff
+}
+footer .talk ul li.blue h4, footer .talk ul li.blue h4 a {
+	color: #2087de
+}
+footer .talk ul li.blue:hover {
+	background: #2087de
+}
+footer .talk ul li.blue:hover .icon {
+	color: #2087de
+}
+footer .talk ul li.green .icon {
+	background: #36b44e;
+	color: #fff
+}
+footer .talk ul li.green h4, footer .talk ul li.green h4 a {
+	color: #36b44e
+}
+footer .talk ul li.green:hover {
+	background: #36b44e
+}
+footer .talk ul li.green:hover .icon {
+	color: #36b44e
+}
+footer .talk ul li .modal {
+	z-index: 10000
+}
+footer .talk ul li .modal-dialog {
+	margin: 10% auto;
+	max-width: 600px
+}
+footer .talk ul li .modal-body {
+	padding: 40px
+}
+footer .talk ul li .modal-body .close {
+	top: -10px;
+	position: absolute;
+	right: -10px;
+	color: #fff;
+	background: #000;
+	display: block;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	opacity: 1;
+	line-height: 40px
+}
+footer .talk ul li .modal-body .close:hover {
+	color: #fff
+}
+footer .talk ul li .modal-dialog p {
+	text-align: left
+}
+footer .talk ul li .modal-dialog .input {
+	border: 1px solid #ccc;
+	margin-bottom: 10px;
+	height: 46px;
+	line-height: 46px;
+	padding: 0 10px;
+	width: 100%
+}
+footer .talk ul li .modal-dialog label{display: none}
+footer .talk ul li .modal-dialog .textarea {
+	height: 100px
+}
+footer .talk ul li .modal-dialog ul li {
+	width: 50%;
+	float: left;
+	position: relative;
+	text-align: left;
+	border: none;
+	height: auto;
+	padding: 0 0 10px 20px;
+	font-size: 14px
+}
+footer .talk ul li .modal-dialog ul li label{margin: 0; display: block} 
+footer .talk ul li .modal-dialog ul li input[type=checkbox] {
+	position: absolute;
+	left: 0;
+	top: 5px
+}
+footer .talk ul li:hover h4, footer .talk ul li:hover h4 a {
+	color: #fff
+}
+footer .talk ul li:hover .icon {
+	background: #fff
+}
+footer .talk .talk-ban {
+	background: url(../images/talk-bg.png) no-repeat center bottom;
+	background-size: cover;
+	min-height: 240px;
+	text-align: center
+}
+footer .talk .talk-ban h4 {
+	font-size: 19px;
+	text-transform: uppercase;
+	margin: 0 0 40px;
+	line-height: 26px;
+	color: #fff;
+	font-weight: 700;
+	padding-top: 121px
+}
+footer .talk .talk-ban h1 {/* remove */
+	font-size: 120px;
+	text-transform: uppercase;
+	margin: 0;
+	line-height: 94px;
+	color: #fff;
+	font-weight: 700
+}
+footer .talk .talk-ban h3 {
+	font-size: 120px;
+	text-transform: uppercase;
+	margin: 0;
+	line-height: 72px;
+	color: #fff;
+	font-weight: 700
+}
+footer .footer {
+	background: #000632;
+	margin: 0
+}
+footer .footer .row {
+	margin: 0 40px;
+	padding: 0
+}
+footer .footer .rating {
+	padding: 40px 0;
+	display: block
+}
+footer .footer .rating .left div {
+	color: #fff
+}
+footer .footer .rating .right {
+	color: #fff;
+	font-size: 20px
+}
+footer .footer .rating .right span {
+	margin-left: 20px
+}
+footer .footer .rating .right i {
+	margin-right: 10px
+}
+footer .footer .rating .right a {
+	color: #fff
+}
+footer .footer .technology {
+	display: block;
+	border-bottom: 1px solid #33385b;
+	border-top: 1px solid #33385b;
+	padding: 40px 0
+}
+footer .footer .technology ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-align: center
+}
+footer .footer .technology ul li {
+	display: inline-block;
+	margin: 0 16px
+}
+footer .footer .technology ul li img {
+	height: auto
+}
+footer .footer .col-md-3 {
+	padding-left: 50px; text-align: left
+}
+footer .footer h4 {
+	font-size: 20px;
+	font-weight: 700;
+	margin: 0 0 20px;
+	text-transform: uppercase;
+	color: #fff;
+	position: relative
+}
+footer .footer h4:before {
+	height: 2px;
+	width: 40px;
+	content: '';
+	position: absolute;
+	left: -50px;
+	top: 10px;
+	background: #fff
+}
+footer .footer .links {
+	padding: 40px 0
+}
+footer .footer .links ul {
+	margin: 0;
+	padding: 0;
+	list-style: none
+}
+footer .footer .links ul li {
+	line-height: 36px;
+	font-size: 14px
+}
+footer .footer .links ul li a {
+	color: #bcc3d0
+}
+footer .footer .copy {
+	border-top: 1px solid #33385b;
+	padding: 40px 0;
+	display: block
+}
+footer .footer .copy .left, footer .footer .copy .left a {
+	color: #cbcbcb;
+	font-size: 13px;
+	line-height: 40px
+}
+footer .footer .copy .left a {
+	margin: 0 5px
+}
+footer .footer .copy .right {
+	padding-right: 40px;
+}
+footer .footer .copy .right ul {
+	margin: 0;
+	padding: 0;
+	list-style: none
+}
+footer .footer .copy .right ul li {
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	background: #5a4f56;
+	border-radius: 50%;
+	float: left;
+	margin-left: 5px
+}
+footer .footer .copy .right ul li em{line-height: 40px;}
+footer .footer .copy .right ul li.facebook {
+	background: #095aad
+}
+footer .footer .copy .right ul li.twitter {
+	background: #27a2ee
+}
+footer .footer .copy .right ul li.youtube {
+	background: #fd0019
+}
+footer .footer .copy .right ul li.linkedin {
+	background: #107cb1
+}
+footer .footer .copy .right ul li.whatsapp {
+	background: #4ba233
+}
+footer .footer .copy .right ul li a {
+	display: block;
+	color: #fff
+}
+footer .footer .copy .right ul li a span{display: none}
+
+.col-md-3 {
+    float: left;
+width: 25%;
+box-sizing: border-box;
+}
+.review-google-plus {
+	background: url(../images/sprites.png) no-repeat -2px 0;
+	width: 24px;
+	height: 24px;
+	display: inline-block;
+	position: relative;
+	top: 7px
+}
+.review-google-plus span{display: none}
+
+edia only screen and (min-width: 1600px) and (max-width: 1799px) {
+footer .footer .technology ul li {margin: 0 10px;}
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1599px) {
+footer .footer .technology ul li {margin: 0 7px; width: 100px;}
+.footer .technology ul li img {width: 100%;}
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+footer .footer .technology ul li {margin: 0 7px; width: 80px;}
+.footer .technology ul li img {width: 100%;}
+footer .talk ul li h4 {font-size: 17px;}
+footer .talk ul li h4 span {font-size: 13px;}
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+footer .footer .technology ul li {margin: 0 7px; width: 60px;}
+.footer .technology ul li img {width: 100%;}
+footer .talk ul li h4 {font-size: 17px;}
+footer .talk ul li h4 span {font-size: 13px;}
+footer .footer .copy{padding: 20px 0}
+footer .footer .copy .left{width: 100%; text-align: center;}
+footer .footer .copy .right{display: table;float: none;margin: 0 auto; padding-right: 0}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+footer .footer .technology ul li {margin: 0 7px; width: 60px;}
+.footer .technology ul li img {width: 100%;}
+footer .talk ul li h4 {font-size: 17px;}
+footer .talk ul li h4 span {font-size: 13px;}
+footer .footer .copy{padding: 20px 0}
+footer .footer .copy .left{width: 100%; text-align: center;}
+footer .footer .copy .right{display: table;float: none;margin: 0 auto; padding-right: 0}
+footer .talk ul li{height: 190px; width: 50%; border-bottom: 1px solid #ccc;}
+footer .talk ul li:last-child{width: 100%;}
+footer .footer .rating .right{font-size: 18px;}
+footer .footer .col-md-3{width: 50%; margin: 0 0 20px;}
+}
+
+@media only screen and (min-width: 640px) and (max-width: 767px) {
+footer .footer .technology ul li {margin: 0 7px; width: 60px;}
+.footer .technology ul li img {width: 100%;}
+footer .talk ul li h4 {font-size: 17px;}
+footer .talk ul li h4 span {font-size: 13px;}
+footer .footer .copy{padding: 20px 0}
+footer .footer .copy .left{width: 100%; text-align: center;}
+footer .footer .copy .right{display: table;float: none;margin: 0 auto; padding-right: 0}
+footer .talk ul li{height: 190px; width: 50%; border-bottom: 1px solid #ccc;}
+footer .talk ul li:last-child{width: 100%;}
+footer .footer .rating .left, footer .footer .rating .right{font-size: 18px; width: 100%; text-align: center}
+footer .footer .rating .right{margin-top: 20px;}
+footer .footer .col-md-3{width: 50%; margin: 0 0 20px;}
+
+footer .talk .talk-ban h1{font-size: 50px; line-height: 52px;}
+footer .talk .talk-ban h4{margin: 0 0 20px; padding-top: 150px;}
+}
+
+@media only screen and (min-width: 480px) and (max-width: 639px) {
+footer .footer .technology ul li {margin: 0 7px; width: 60px;}
+.footer .technology ul li img {width: 100%;}
+footer .talk ul li h4 {font-size: 17px;}
+footer .talk ul li h4 span {font-size: 13px;}
+footer .footer .copy{padding: 20px 0}
+footer .footer .copy .left{width: 100%; text-align: center;}
+footer .footer .copy .right{display: table;float: none;margin: 0 auto; padding-right: 0}
+footer .talk ul li{height: 190px; width: 50%; border-bottom: 1px solid #ccc;}
+footer .talk ul li:last-child{width: 100%;}
+footer .footer .rating .left, footer .footer .rating .right{font-size: 18px; width: 100%; text-align: center}
+footer .footer .rating .right{margin-top: 20px;}
+footer .footer .col-md-3{width: 100%; margin: 0 0 20px;}
+
+footer .talk .talk-ban h1{font-size: 50px; line-height: 52px;}
+footer .talk .talk-ban h4{margin: 0 0 20px; padding-top: 150px;}
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+footer .footer .technology ul li {margin: 0 7px; width: 60px;}
+.footer .technology ul li img {width: 100%;}
+footer .talk ul li h4 {font-size: 13px;}
+footer .talk ul li h4 span {font-size: 13px;}
+footer .footer .copy{padding: 20px 0}
+footer .footer .copy .left{width: 100%; text-align: center;}
+footer .footer .copy .right{display: table;float: none;margin: 0 auto; padding-right: 0}
+footer .talk ul li{height: 190px; width: 50%; border-bottom: 1px solid #ccc;}
+footer .talk ul li:last-child{width: 100%;}
+footer .footer .rating .left, footer .footer .rating .right{font-size: 18px; width: 100%; text-align: center}
+footer .footer .rating .right{margin-top: 20px;}
+footer .footer .col-md-3{width: 100%; margin: 0 0 20px;}
+
+footer .talk .talk-ban h1{font-size: 50px; line-height: 52px;}
+footer .talk .talk-ban h4{margin: 0 0 20px; padding-top: 150px;}
+}

@@ -1,0 +1,644 @@
+.basic-package h1 span {
+	font-size: 14px;
+	color: #00bea8;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 700;
+	display: block;
+	line-height: 30px
+}
+.basic-package #accordion3 {
+	width: 100%;
+	margin: 0 auto
+}
+.basic-package .accordion3 {
+	width: 100%;
+	color: #333
+}
+.basic-package .accordion3 dt {
+	width: 100%;
+	padding: 16px;
+	cursor: pointer;
+	background-color: #fff;
+	background-image: url(../images/plus.png);
+	background-position: right 20px center;
+	background-repeat: no-repeat;
+	color: #00062d;
+	font-size: 20px;
+	font-weight: 400; border-radius: 8px;
+}
+.basic-package .accordion3 dt:hover {
+	background-color: #fff
+}
+.basic-package .accordion3 .open {
+	background-color: #fff;
+	background-image: url(../images/minus.png); border-radius: 8px 8px 0 0;
+}
+.basic-package .accordion3 dd {
+	overflow: hidden;
+	background: #fff;
+	margin: 0; border-radius: 0 0 8px 8px;
+}
+.basic-package .accordion3 span {
+	display: inline-block;
+	width: 100%;
+	border-top: none;
+	padding: 16px
+}
+.basic-package .accordion3 span ul {
+	margin: 0 0 0 20px;
+	padding: 0
+}
+.basic-package .accordion3 span ul li {
+	width: 50%;
+	float: left;
+	padding-right: 20px
+}
+.payment .seo-table {
+	margin: 20px 0
+}
+.payment .seo-table th {
+	text-align: center
+}
+.pink-btn {
+	border: 1px solid #de204c;
+	background: #de204c;
+	font-size: 14px;
+	color: #fff;
+	font-weight: 700;
+	text-transform: uppercase;
+	height: 50px;
+	line-height: 50px;
+	padding: 0 30px;
+	/*-moz-box-shadow: 2px 3px 4px #e10639;
+	-webkit-box-shadow: 2px 3px 4px #e10639;
+	box-shadow: 2px 3px 4px #e10639;*/
+	cursor: pointer;
+	transition: all .2s ease-in-out
+}
+.pink-btn:hover {
+	background: #fff;
+	color: #de204c
+}
+.img_right {
+	margin-left: 10px;
+	float: right
+}
+.left .testimonial {
+	float: left;
+	width: 295px;
+	margin: 0 11px 10px 0;
+	position: relative;
+	-moz-box-shadow: 1px 1px 10px #ccc;
+	-webkit-box-shadow: 1px 1px 10px #ccc;
+	box-shadow: 1px 1px 10px #ccc
+}
+.left .testimonial:nth-child(3n+3) {
+	margin-right: 0
+}
+.left .testimonial img, .left .testimonial video {
+	width: 100%
+}
+.testi-box {
+	border: 1px solid #318eef;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	padding: 20px;
+	box-shadow: 0 0 7px #ccc
+}
+.testi-box p {
+	font-size: 15px
+}
+.box-shadow {
+	-moz-box-shadow: 1px 1px 10px #ccc;
+	-webkit-box-shadow: 1px 1px 10px #ccc;
+	box-shadow: 1px 1px 10px #ccc
+}
+button.size {
+	background: #e02b58;
+	border: 1px solid #e02b58;
+	border-radius: 5px;
+	clear: both;
+	font-size: 17px;
+	color: #fff;
+	padding: 8px 20px;
+	cursor: pointer
+}
+button.size:hover {
+	color: #102b41;
+	background: #fff
+}
+button.current-job {
+	background: #0baa98;
+	border: 1px solid #0baa98;
+	border-radius: 5px;
+	clear: both;
+	font-size: 17px;
+	color: #fff;
+	padding: 8px 20px;
+	cursor: pointer
+}
+button.current-job:hover {
+	color: #102b41;
+	background: #fff
+}
+button.international {
+	background: #895ee4;
+	border: 1px solid #895ee4;
+	border-radius: 5px;
+	clear: both;
+	font-size: 17px;
+	color: #fff;
+	padding: 8px 20px;
+	cursor: pointer
+}
+button.international:hover {
+	color: #102b41;
+	background: #fff
+}
+#opening ul, .why-alakmalak1 ul {
+	margin: 0;
+	padding: 0;
+	list-style: none
+}
+#opening ul li {
+	padding: 8px 10px;
+	cursor: pointer;
+	background-color: #fff;
+	color: #102b41;
+	border: 1px solid #e4e4ed;
+	border-radius: 5px;
+	float: left;
+	width: 49%;
+	margin: 10px 0;
+	line-height: 26px;
+	font-size: 15px;
+	-moz-box-shadow: 1px 1px 10px #ccc;
+	-webkit-box-shadow: 1px 1px 10px #ccc;
+	box-shadow: 1px 1px 10px #ccc
+}
+#opening ul li:nth-child(odd) {
+	float: left
+}
+#opening ul li:nth-child(even) {
+	float: right
+}
+#opening ul li a {
+	display: block
+}
+.why-alakmalak1 ul li {
+	background: #CCCCCC;
+	font-size: 20px;
+	display: inline-block;
+	width: 100%;
+	margin-bottom: 10px;
+	padding: 0
+}
+.why-alakmalak1 ul li img {
+	float: right
+}
+.why-alakmalak1 ul li span {
+	padding: 20px;
+	font-size: 20px;
+	float: left;
+	line-height: 58px
+}
+.career-text img {
+	float: right
+}
+.career-icon {
+	float: left;
+	margin-right: 10px
+}
+.career-info {
+	margin-top: 8px
+}
+.career-info h4 {
+	margin-bottom: 2px;
+	font-size: 17px;
+	font-weight: 600
+}
+.left #accordion2 {
+	cursor: pointer;
+	background-color: #fff;
+	border: 1px solid #e4e4ed;
+	border-radius: 5px;
+	float: left;
+	width: 100%;
+	margin: 10px 0;
+	line-height: 26px;
+	font-size: 15px;
+	-moz-box-shadow: 1px 1px 10px #ccc;
+	-webkit-box-shadow: 1px 1px 10px #ccc;
+	box-shadow: 1px 1px 10px #ccc
+}
+.career-header {
+	border-bottom: 1px solid #e2e2eb;
+	padding: 20px
+}
+.career-header span {
+	margin-left: 50px
+}
+.career-header h2 {
+	margin-bottom: 5px;
+	color: #318eef;
+	font-size: 24px
+}
+.left #accordion2 dd {
+	padding: 20px
+}
+.left #accordion2 .career-text {
+	margin-left: 73px
+}
+.left #accordion2 .career-text h3 {
+	color: #318eef;
+	font-size: 24px
+}
+.left #accordion2 .career-text h4 {
+	font-size: 20px;
+	color: #373d4b;
+	font-weight: 600
+}
+ul.infrastructure {
+	width: 100%;
+	display: inline-block;
+	margin-bottom: 20px
+}
+.infrastructure li {
+	background-color: #fff;
+	border: 1px solid #e4e4ed;
+	border-radius: 5px;
+	float: left;
+	width: 31%;
+	margin: 1%;
+	-moz-box-shadow: 1px 1px 10px #ccc;
+	-webkit-box-shadow: 1px 1px 10px #ccc;
+	box-shadow: 1px 1px 10px #ccc;
+	padding: 40px;
+	text-align: center;
+	height: 320px
+}
+.infrastructure li h3 {
+	margin: 30px 0;
+	text-transform: uppercase;
+	font-size: 17px;
+	color: #3b3f5f
+}
+.infrastructure-icon {
+	max-width: 100%
+}
+.file-upload {
+	display: block;
+	text-align: center;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	margin: 0 0 20px
+}
+.file-upload .file-select {
+	display: block;
+	border: 2px solid #dce4ec;
+	color: #34495e;
+	cursor: pointer;
+	height: 42px;
+	line-height: 42px;
+	text-align: left;
+	background: #FFF;
+	overflow: hidden;
+	position: relative
+}
+.file-upload .file-select .file-select-button {
+	background: #dce4ec;
+	padding: 0 10px;
+	display: inline-block;
+	height: 42px;
+	line-height: 42px
+}
+.file-upload .file-select .file-select-name {
+	line-height: 40px;
+	display: inline-block;
+	padding: 0 10px;
+	font-size: 14px
+}
+.file-upload .file-select:hover {
+	border-color: #34495e;
+	transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out
+}
+.file-upload .file-select:hover .file-select-button {
+	background: #34495e;
+	color: #FFF;
+	transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out
+}
+.file-upload.active .file-select {
+	border-color: #3fa46a;
+	transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out
+}
+.file-upload.active .file-select .file-select-button {
+	background: #3fa46a;
+	color: #FFF;
+	transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out
+}
+.file-upload .file-select input[type=file] {
+	z-index: 100;
+	cursor: pointer;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	filter: alpha(opacity=0)
+}
+.file-upload .file-select.file-select-disabled {
+	opacity: .65
+}
+.file-upload .file-select.file-select-disabled:hover {
+	cursor: default;
+	display: block;
+	border: 2px solid #dce4ec;
+	color: #34495e;
+	cursor: pointer;
+	height: 40px;
+	line-height: 40px;
+	margin-top: 5px;
+	text-align: left;
+	background: #FFF;
+	overflow: hidden;
+	position: relative
+}
+.file-upload .file-select.file-select-disabled:hover .file-select-button {
+	background: #dce4ec;
+	color: #666;
+	padding: 0 10px;
+	display: inline-block;
+	height: 40px;
+	line-height: 40px
+}
+.file-upload .file-select.file-select-disabled:hover .file-select-name {
+	line-height: 40px;
+	display: inline-block;
+	padding: 0 10px
+}
+.back-btn {
+	float: right;
+	border: none;
+	background: #318eef;
+	line-height: 40px;
+	padding: 0 30px;
+	border-radius: 5px;
+	text-transform: uppercase;
+	font-weight: 600;
+	color: #FFF;
+	cursor: pointer
+}
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+	.why-alakmalak ul li span {
+		font-size: 37px
+	}
+	/*.why-alakmalak ul li {
+		width: 31.33%;
+		margin: 0 2% 0 0
+	}*/
+	.why-alakmalak .certification {
+		margin-bottom: 30px !important
+	}
+	.our-approach .approach-left {
+		min-height: 410px
+	}
+	.our-approach .approach-right {
+		min-height: 410px
+	}
+	.we-offer.hire-box ul li {
+		min-height: 475px
+	}
+	.our-approach-onecol ul li {
+		width: 47%;
+		margin-right: 3%
+	}
+	.types-app ul li {
+		width: 23.22%;
+		margin: 0 2% 2% 0;
+		height: 228px
+	}
+	.types-app ul li span {
+		width: 100%
+	}
+	.we-offer.mobile-app ul li {
+		min-height: 421px
+	}
+	.career-info h4 {
+		font-size: 15px
+	}
+	.career-info span {
+		font-size: 15px
+	}
+	.career-header span {
+		margin-left: 74px;
+		width: 100%;
+		display: inline-block
+	}
+	.career-header h2 {
+		font-size: 22px
+	}
+	.left #accordion2 .career-text h3 {
+		font-size: 21px
+	}
+	.left #accordion2 .career-text h4 {
+		font-size: 19px
+	}
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+	.inner h1 {
+		font-size: 23px
+	}
+	.why-alakmalak1 ul li img {
+		width: 362px
+	}
+	.why-alakmalak1 ul li span {
+		padding: 16px;
+		font-size: 17px;
+		line-height: 60px
+	}
+	.we-offer ul li {
+		width: 32%;
+		margin-right: 2%;
+		min-height: 377px
+	}
+	.we-offer ul li h4 {
+		font-size: 16px;
+		height: 49px
+	}
+	.basic-package .accordion3 dt {
+		font-size: 17px
+	}
+	.why-alakmalak ul li span {
+		font-size: 37px
+	}
+	.why-alakmalak ul li {
+		width: 31.33%;
+		margin: 0 2% 0 0
+	}
+	.why-alakmalak .certification {
+		margin-bottom: 30px !important
+	}
+	.hours-block {
+		width: 100%
+	}
+	.hours-block li {
+		width: 23.44%;
+		margin-right: 2%
+	}
+	.our-approach .approach-left {
+		min-height: 450px
+	}
+	.our-approach .approach-right {
+		min-height: 450px
+	}
+	.we-offer.hire-box ul li {
+		min-height: 475px
+	}
+	.our-approach-onecol ul li {
+		width: 47%;
+		margin-right: 3%
+	}
+	.types-app ul li {
+		width: 23.22%;
+		margin: 0 2% 2% 0;
+		height: 228px
+	}
+	.types-app ul li span {
+		width: 100%
+	}
+	.we-offer.mobile-app ul li {
+		min-height: 421px
+	}
+	button.size {
+		font-size: 15px;
+		padding: 8px 12px
+	}
+	button.current-job {
+		font-size: 15px;
+		padding: 8px 12px
+	}
+	button.international {
+		font-size: 15px;
+		padding: 8px 12px
+	}
+	.career-info h4 {
+		font-size: 13px
+	}
+	.career-info span {
+		font-size: 14px
+	}
+	.career-header span {
+		margin-left: 74px;
+		width: 100%;
+		display: inline-block
+	}
+	.career-header h2 {
+		font-size: 22px
+	}
+	.left #accordion2 .career-text h3 {
+		font-size: 21px
+	}
+	.left #accordion2 .career-text h4 {
+		font-size: 19px
+	}
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.inner h1 {
+		font-size: 23px
+	}
+	.why-alakmalak1 ul li img {
+		width: 362px
+	}
+	.why-alakmalak1 ul li span {
+		padding: 16px;
+		font-size: 17px;
+		line-height: 60px
+	}
+	.we-offer ul li {
+		width: 32%;
+		margin-right: 2%;
+		min-height: 347px
+	}
+	.we-offer ul li h4 {
+		font-size: 16px;
+		height: 49px
+	}
+	.basic-package .accordion3 dt {
+		font-size: 17px
+	}
+	.why-alakmalak ul li span {
+		font-size: 37px
+	}
+	.why-alakmalak ul li {
+		width: 31.33%;
+		margin: 0 2% 0 0
+	}
+	.why-alakmalak .certification {
+		margin-bottom: 30px !important
+	}
+	.hours-block {
+		width: 100%
+	}
+	.hours-block li {
+		width: 23.44%;
+		margin-right: 2%
+	}
+	.our-approach .approach-left {
+		min-height: 410px
+	}
+	.our-approach .approach-right {
+		min-height: 410px
+	}
+	.we-offer.hire-box ul li {
+		min-height: 475px
+	}
+	.our-approach-onecol ul li {
+		width: 47%;
+		margin-right: 3%
+	}
+	.types-app ul li {
+		width: 23.22%;
+		margin: 0 2% 2% 0;
+		height: 228px
+	}
+	.types-app ul li span {
+		width: 100%
+	}
+	.we-offer.mobile-app ul li {
+		min-height: 371px
+	}
+	.career-info h4 {
+		font-size: 13px
+	}
+	.career-info span {
+		font-size: 14px
+	}
+	.career-header span {
+		margin-left: 74px;
+		width: 100%;
+		display: inline-block
+	}
+	.career-header h2 {
+		font-size: 22px
+	}
+	.left #accordion2 .career-text h3 {
+		font-size: 21px
+	}
+	.left #accordion2 .career-text h4 {
+		font-size: 19px
+	}
+}

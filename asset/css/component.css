@@ -1,0 +1,45 @@
+.cbp-af-header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 10000;
+	transition: all .2s ease-in-out;
+	display: block; height: 94px; background: #FFF;
+}
+.cbp-af-header.contact {
+	height: 94px
+}
+.cbp-af-header .cbp-af-inner {
+	width: 90%;
+	max-width: 69em;
+	margin: 0 auto;
+	padding: 0 1.875em
+}
+.cbp-af-header h1, .cbp-af-header nav {
+	display: inline-block;
+	position: relative
+}
+.cbp-af-header nav {
+	float: right
+}
+.cbp-af-header.cbp-af-header-shrink {
+	height: 94px;
+	background: #fff
+}
+.cbp-af-header.contact.cbp-af-header-shrink {
+	height: 94px
+}
+
+@media only screen and (min-width:1400px) and (max-width:1599px) {
+.cbp-af-header {height: 94px;}
+.cbp-af-header.cbp-af-header-shrink {height: 94px;}
+}
+
+@media only screen and (min-width:1200px) and (max-width:1399px) {
+.cbp-af-header {height: 84px;}
+.cbp-af-header.cbp-af-header-shrink {height: 84px;}
+
+.cbp-af-header.contact {height: 84px;}
+.cbp-af-header.contact.cbp-af-header-shrink {height: 84px;}
+}
